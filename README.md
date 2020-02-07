@@ -1,1 +1,1 @@
-Created a photography web page for which I got some idea from the ACME PHOTOGRAPHY website. A little JQuery for the smooth scrolling 
+Created a photography web page for which I got some idea from the ACME PHOTOGRAPHY website. A little JQuery for the smooth scrolling. The web page is only Tablet friendly so it won't work properly on the mobile. For mobile version use media query and specify the max-width. 
