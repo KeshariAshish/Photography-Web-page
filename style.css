@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+  
+  margin: 0;
+  background: #eee;
+  height: auto;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2{
+  font-weight: 200;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 1;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
+main{
+  width: 960px;
+  margin: auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+#landing{
+  background: #fff;
+}
+
+#landing-text{
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#landing-image{
+  background: url(logo.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+.btn{
+  padding: 0.5rem 2rem;
+  border: 2px rgb(216, 17, 17) solid;
+  border-radius: 50px ;
+  background-color: rgb(204, 199, 199);
+  margin: 2rem 0 0!important;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover{
+  background: #f4f4f4;
+  border: rgb(19, 18, 18) solid;
+  transition: background 500ms ease-in;
+}
+
+#header{
+  padding: 1.5rem;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+#header h2{
+  border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+.caption{
+  padding: 1.5rem;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #333;
+}
+
+footer h3{
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+@media(min-width: 500px){
+  #landing{
+    display: flex;
+    height: 100%;
+  }
+
+  #landing-text{
+    height: 100vh;
+  }
+
+  #landing-image{
+    height: 100vh;
+  }
+}
